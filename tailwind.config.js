@@ -1,7 +1,9 @@
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  mode: 'jit', // Ensure JIT is enabled
+  content: [
+    './src/**/*.{html,js,jsx,ts,tsx}',
+  ],
   theme: {
     extend: {},
   },
-  plugins: [],
 };
