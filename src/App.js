@@ -8,11 +8,11 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="bg-gray-50 text-gray-900">
-      <Header />
+      
       <Summary />
       <WorkExperience />
       <Projects />
-      <Footer />
+      
     </div>
   );
 }
